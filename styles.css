@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.arrange_box_main_container {
+  padding: 20px 20px 10px 20px;
+  background-color: rgb(196, 238, 187);
+}
+
+.arrange_box_area {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box_area {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 40%;
+}
+
+.box_area_head {
+  text-align: center;
+}
+
+.box_search {
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.box_search_input {
+  width: 90%;
+  background-color: rgb(196, 238, 187);
+}
+
+.box_list {
+  list-style-type: none;
+  height: 200px;
+  overflow: auto;
+}
+
+button {
+  color: white;
+  background-color: rgb(37, 231, 118);
+  border-radius: 5px;
+  border-style: None;
+}
+
+.arrange_box_area_buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.arrange_box_area_buttons>button {
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.control_area {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.control_area>button {
+  width: 180px;
+  height: 40px;
+  margin-right: 5px;
+  margin-left: 5px;
+  color: black;
+  cursor: pointer;
+}
+
+.clicked_list_item {
+  background-color: rgb(37, 231, 118);
+  color: black;
+}
+
+.disabled_button {
+  background-color: black;
+}
